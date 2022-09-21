@@ -16,7 +16,7 @@ It will run 10 tests on your code, matching the examples given in the Lab handou
 
 
 ![This is an image](/Users/joshuabloom/Documents/soft-dev/week02/lab02-solutions/lab02-unit-tests/img/run_test_code.jpg)
-![alt text](https://github.com/joshua-bloom/lab02-test-code/blob/img/run_test_code.jpg?raw=true)
+![alt text](https://github.com/joshua-bloom/lab02-test-code/blob/main/img/run_test_code.jpg?raw=true)
 ```
 joshuabloom@bishops $ python3 -m unittest
 
