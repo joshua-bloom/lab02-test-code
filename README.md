@@ -14,9 +14,6 @@ python3 -m unittest
 ## How does it work?
 It will run 10 tests on your code, matching the examples given in the Lab handout.  Two of the programs get tested twice, two of them get tested three times.  It will probably print out a lot of text, showing the results of each test.  The first thing to do is to scroll up (it may be a few screens) until you see something that looks like this:
 
-
-![This is an image](/Users/joshuabloom/Documents/soft-dev/week02/lab02-solutions/lab02-unit-tests/img/run_test_code.jpg)
-![alt text](https://github.com/joshua-bloom/lab02-test-code/blob/main/img/run_test_code.jpg?raw=true)
 ```
 joshuabloom@bishops $ python3 -m unittest
 
@@ -42,6 +39,7 @@ So, in this test run, I have 7 failed tests, no errors, and 3 passing tests.
 Each Failed Test or Error will have a block of text, I’ll show you a couple of examples of what to look for:
 
 Example 1:
+![alt text](https://github.com/joshua-bloom/lab02-test-code/blob/main/img/example1.jpg?raw=true)
 
 Starting at the top, the first line of text shows that this was a Failed test, not an error.  If you go across that line, you see that it ends with TestDashes.  This means that this failed test was in dashes.py.  Now, skip to the bottom, a lot of the stuff in between is not that useful to you at this point in your career.
 
@@ -52,12 +50,14 @@ Actual: input('Enter Text: ')
 So, the test failed because something is different from what it was supposed to be.  It might take you a second to notice the difference: the program used a capital T on Text instead of a lower-case t.  OK, I can fix that really easily.  Notice that you will see this Failed test twice, because it is testing dashes.py twice.  So, we can fix two of the seven failed tests just by changing the T to a t.
 
 Example 2:
+![alt text](https://github.com/joshua-bloom/lab02-test-code/blob/main/img/example2.jpg?raw=true)
 
 Again, check the top line, that shows us that we are testing reading.py.  Then, go to the bottom, and we see that we used a capital L instead of a lower-case l.  Another really easy fix.
 
 For this set of four programs, all the Failed tests were copies of the two above, or this last example, so I only have to fix three things to change all 7 tests to passing:
 
 Example 3:
+![alt text](https://github.com/joshua-bloom/lab02-test-code/blob/main/img/example3.jpg?raw=true)
 
 Check the top, we are looking at patterns.py.
 At the bottom, hmmm, those look the same to me.  But, look at the line above the two patterns:
